@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+
+   <div class="navbar">
+    <img src="images/logo.png" alt="logo" class="logo">
+    <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="Appointment.html">Appointment</a>
+    </div>
+</div>
+
+
+    <!-- Appointment Form Section -->
+    <section class="appointment">
+        <h1>Book an Appointment</h1>
+        <p>Fill out the form below to schedule an appointment with your preferred doctor.</p>
+        
+        <form action="http://127.0.0.1:5000/submit-appointment" method="post" class="appointment-form">
+
+
+
+            <!-- User Details -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            
+            <!-- Doctor Selection -->
+            <label for="doctor">Select a Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="">-- Choose a Doctor --</option>
+                <option value="dr-Jaime">Dr. Jaime</option>
+                <option value="dr-Amanda">Dr. Amanda</option>
+                <option value="dr-Charles">Dr. Charles</option>
+                <option value="dr-Andrea">Dr.Andrea</option>
+                <option value="dr-Mary">Dr.Mary</option>
+                <option value="dr-Jennifer">Dr.Jennifer</option>
+            </select>
+            
+            <!-- Appointment Details -->
+            <label for="date">Preferred Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="message">Additional Notes:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any additional information or concerns"></textarea>
+            
+            <button type="submit" class="btn">Book Appointment</button>
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2024 MindEase. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

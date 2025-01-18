@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/bg.webp);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ef9393; /* You can change the background color as needed */
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Space between the links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Change the color as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+  .services .card {
+    transition: transform 0.2s;
+  }
+  
+  .services .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    margin-top: 20px;
+  }
+
+
+/* Hero Section */
+.hero {
+  color: #000;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #0056b3;
+  color: #fff;
+}
+
+/* About Section */
+#about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 4px;
+  color: #000;
+  margin-top: 2px;
+}
+
+#about p {
+  font-size: 1.1em;
+  color: #000000;
+}
+
+/* Why Choose Us Section */
+#why-choose-us {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#why-choose-us h2 {
+  font-size: 2em;
+  margin-bottom: 4px;
+  color: #000;
+  margin-top: 2px;
+}
+
+#why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+#why-choose-us ul li {
+  font-size: 1.1em;
+  color: #000000;
+  margin: 10px 0;
+}
+
+/* Home */
+#how-it-works {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+#how-it-works h2 {
+  font-size: 2em;
+  margin-bottom: 4px;
+  margin-top: 2px;
+  color: #000;
+}
+
+#how-it-works ol {
+  list-style: decimal inside;
+  padding: 0;
+}
+
+#how-it-works ol li {
+  font-size: 1.1em;
+  color: #000000;
+  margin: 10px 0;
+}
+
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+/* About Section */
+.about, .mission, .vision {
+  padding: 40px 20px;
+  text-align: center;
+  color: #000;
+}
+
+.about h1, .mission h2, .vision h2 {
+  font-size: 2em;
+  margin-bottom: 4px;
+margin-top: 2px;
+}
+
+.about p, .mission p, .vision p {
+  font-size: 1.2em;
+  color: #010101;
+  margin-bottom: 0;
+}
+
+  /* Appointment Section */
+  .appointment {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .appointment h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .appointment p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .appointment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .appointment-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .appointment-form input,
+  .appointment-form select,
+  .appointment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .appointment-form textarea {
+    resize: vertical;
+  }
+  
+  .appointment-form .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .appointment-form .btn:hover {
+    background-color: #0056b3;
+  }
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2em;
+  }
+
+  .hero p {
+      font-size: 1em;
+  }
+
+  #about h2, #why-choose-us h2, #how-it-works h2 {
+      font-size: 1.8em;
+  }
+
+  #about p, #why-choose-us ul li, #how-it-works ol li {
+      font-size: 1em;
+  }
+}
